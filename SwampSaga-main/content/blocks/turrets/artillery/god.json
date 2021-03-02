@@ -1,0 +1,49 @@
+{
+	"type": "ItemTurret",
+	"name": "God",
+	"description":"Fucking god",
+	"size": 4,
+	"health": 99999,
+	"reloadTime": 2,
+	"range": 900,
+	"maxAmmo": 50,
+	"shots": 10,
+	"shootShake": 3,
+	"velocityInaccuracy": 0.2,
+	"inaccuracy": 26,
+	"shootSound" : "bless",
+	"recoilAmount" : 5,
+	"targetAir" : true, 
+	"targetGround" : true,
+	
+	"ammoTypes": {
+		"graphite": {
+			"type" : "ArtilleryBulletType",
+			"damage": 999,
+			"height": 100,
+			"width" : 100,
+			"speed" : 2,
+			"fragBullets": 10,
+			"splashDamage": 999,
+			"splashDamageRadius": 99,
+			"hitEffect":"bigShockwave",
+			"fragBullet": {
+				"type" : "BombBulletType",
+				"damage": 999,
+				"height": 100,
+				"width" : 100,
+				"splashDamage": 999,
+				"splashDamageRadius": 99,
+				"speed" : 5,
+				"velocityInaccuracy": 0.2,
+				"hitEffect":"shockwave"
+				}
+			},
+		},
+		
+	"requirements": [
+		{ "item": "graphite", "amount": 380 }
+	],
+	"category": "turret",
+	"research": "swamp bless"
+}
