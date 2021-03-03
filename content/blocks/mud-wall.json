@@ -1,0 +1,13 @@
+{
+  "name": "Mud Wall",
+  "description": "A wall made of the purest swamp mud, you can still smell it ...",
+  "type": wall
+  "health": 5000,
+  "size": 2,
+  "breakSound": "oof",
+  "requirements": [
+    { "item": "graphite", "amount": 400 }
+  ],
+  "category": "defense",
+  "research": "mud-wall"
+}
